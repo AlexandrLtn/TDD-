@@ -27,7 +27,7 @@ public class RomanNumeralsTest {
 		//Then
 		Assert.assertEquals(expected, actual);
 	}
-	/*@Test
+	@Test
 	public void should_return_IV_when_4 () {
 		//Given
 		String input = "4";
@@ -60,7 +60,7 @@ public class RomanNumeralsTest {
 		//Then
 		Assert.assertEquals(expected, actual);
 	}
-	@Test
+	/*@Test
 	public void should_return_IX_when_9 () {
 		//Given
 		String input = "9";
