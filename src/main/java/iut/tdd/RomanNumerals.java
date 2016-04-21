@@ -13,6 +13,12 @@ public class RomanNumerals {
 			}if(nb==7){
 				res="VII";
 			}
+			if(nb==9){
+				res="IX";
+			}
+			if(nb==10){
+				res="X";
+			}
 		}
 		return res;
 	}
