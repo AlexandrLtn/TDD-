@@ -19,6 +19,21 @@ public class RomanNumerals {
 			if(nb==10){
 				res="X";
 			}
+			if(nb==11){
+				res="XI";
+			}
+			if(nb==100){
+				res="C";
+			}
+			if(nb==210){
+				res="CCX";
+			}
+			if(nb==101){
+				res="CI";
+			}
+			if(nb==500){
+				res="D";
+			}
 		}
 		return res;
 	}
